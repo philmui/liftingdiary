@@ -4,6 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+## IMPORTANT: Consult /docs Before Writing Any Code
+
+Before generating or modifying any code, **always read the relevant file(s) in the `/docs` directory first**. These files define project-specific standards and conventions that take precedence over general best practices.
+
+Current docs:
+- `docs/ui.md` — UI standards (component library rules, shadcn/ui usage, styling conventions)
+
+If the task touches a domain covered by a docs file, read that file before writing a single line of code.
+
 ## Commands
 
 ```bash
